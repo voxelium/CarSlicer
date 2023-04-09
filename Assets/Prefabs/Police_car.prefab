@@ -343,6 +343,8 @@ GameObject:
   - component: {fileID: 4870167790249810}
   - component: {fileID: 3626568957461689346}
   - component: {fileID: 3881497320299792862}
+  - component: {fileID: 4014147613458893110}
+  - component: {fileID: 3980744722415745008}
   m_Layer: 0
   m_Name: Police_car
   m_TagString: Untagged
@@ -399,6 +401,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.9364846, y: 0.6699053, z: 2.3537145}
   m_Center: {x: 0, y: 0.33252496, z: 0.0021445751}
+--- !u!114 &4014147613458893110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646981259178978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb4231669f3526949a4b889196486fbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3980744722415745008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646981259178978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e5cacb76cba02543ac5277e19a4100d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSliceMaterial: {fileID: 2100000, guid: fb57deec1f6b9d94b8cf6a09e249fc71, type: 2}
+  asynchronously: 0
+  useLazyRunner: 0
+  _sliceId: 0
+  _lastSliceTime: -3.4028235e+38
+  delayBetweenSlices: 1
 --- !u!1 &1770694637400948
 GameObject:
   m_ObjectHideFlags: 0

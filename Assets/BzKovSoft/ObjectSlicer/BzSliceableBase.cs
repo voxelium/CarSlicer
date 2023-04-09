@@ -193,7 +193,7 @@ namespace BzKovSoft.ObjectSlicer
 			}
 
 			Profiler.BeginSample("OnSliceFinished");
-			OnSliceFinished(result);
+			//OnSliceFinished(result);
 			Profiler.EndSample();
 
 			if (result.sliced)

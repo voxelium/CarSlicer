@@ -177,6 +177,8 @@ GameObject:
   - component: {fileID: 4870167790249810}
   - component: {fileID: 9207103547453455110}
   - component: {fileID: 1738845229555625230}
+  - component: {fileID: 8521183157870351999}
+  - component: {fileID: 3456518506693796651}
   m_Layer: 0
   m_Name: Car_1
   m_TagString: Untagged
@@ -233,6 +235,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.9364846, y: 0.653964, z: 2.2893724}
   m_Center: {x: 0, y: 0.3245543, z: 0}
+--- !u!114 &8521183157870351999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646981259178978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb4231669f3526949a4b889196486fbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3456518506693796651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646981259178978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e5cacb76cba02543ac5277e19a4100d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSliceMaterial: {fileID: 2100000, guid: fb57deec1f6b9d94b8cf6a09e249fc71, type: 2}
+  asynchronously: 0
+  useLazyRunner: 0
+  _sliceId: 0
+  _lastSliceTime: -3.4028235e+38
+  delayBetweenSlices: 1
 --- !u!1 &1664593040851034
 GameObject:
   m_ObjectHideFlags: 0
